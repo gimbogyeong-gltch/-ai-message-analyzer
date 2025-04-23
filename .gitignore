@@ -1,0 +1,29 @@
+# 파이썬 바이트코드 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+.venv/
+env/
+venv/
+
+# 학습 결과물
+model_output/
+checkpoint-*/
+*.safetensors
+optimizer.pt
+training_args.bin
+trainer_state.json
+
+# 원본 데이터
+my_data.csv
+
+# 로그
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
